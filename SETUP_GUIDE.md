@@ -49,5 +49,26 @@ OneSignal.push(function() {
     });
 });
 </script>
+```
 
-[...]
+## Play Store Submission
+
+1. Create a Google Play Developer account
+2. Create a new app in Play Console
+3. Upload app-release.aab
+4. Complete store listing
+5. Submit for review
+
+## Asset Links Verification
+
+Upload `assetlinks.json` to:
+`https://peza-wanga.vercel.app/.well-known/assetlinks.json`
+
+## Package Details
+
+- Package Name: app.peza-pezawanga
+- App Name: peza wanga
+- Website: https://peza-wanga.vercel.app
+
+---
+Generated with ❤️ by FreeWebToApk

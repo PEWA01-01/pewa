@@ -1,0 +1,69 @@
+{
+  "rules": {
+    "users": {
+      ".read": true,
+      ".indexOn": ["country", "createdAt", "verified", "role"],
+      "$uid": {
+        ".read": true,
+        ".write": "auth != null && (auth.uid === $uid || root.child('admins').child(auth.uid).exists() || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+        ".validate": "(root.child('admins').child(auth.uid).exists() || root.child('users').child(auth.uid).child('role').val() === 'admin') || (!newData.hasChild('verified') || newData.child('verified').val() === data.child('verified').val()) && (!newData.hasChild('role') || newData.child('role').val() === data.child('role').val()) && (!newData.hasChild('disabled') || newData.child('disabled').val() === data.child('disabled').val()) && (!newData.hasChild('banned') || newData.child('banned').val() === data.child('banned').val())"
+      }
+    },
+    "posts": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "comments": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "likes": {
+      ".read": true,
+      ".write": "auth != null"
+    },
+    "chats": {
+      ".read": true,
+      "$chatId": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    },
+    "messages": {
+      ".read": true,
+      "$chatId": {
+        ".read": "auth != null",
+        ".write": "auth != null",
+        "$messageId": {
+          ".read": "auth != null",
+          ".write": "auth != null"
+        }
+      }
+    },
+    "notifications": {
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || root.child('admins').child(auth.uid).exists())",
+        ".write": "auth != null"
+      }
+    },
+    "verification_requests": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "admins": {
+      ".read": "auth != null && (root.child('admins').child(auth.uid).exists() || root.child('users').child(auth.uid).child('role').val() === 'admin')",
+      ".write": "auth != null && (root.child('admins').child(auth.uid).exists() || root.child('users').child(auth.uid).child('role').val() === 'admin')"
+    },
+    "settings": {
+      "$uid": {
+        ".read": "auth != null && (auth.uid === $uid || root.child('admins').child(auth.uid).exists())",
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    },
+    "presence": {
+      ".read": true,
+      "$uid": {
+        ".write": "auth != null && auth.uid === $uid"
+      }
+    }
+  }
+}

@@ -1,0 +1,797 @@
+{
+  "framework": {
+    "name": "Vite",
+    "slug": "vite"
+  },
+  "basePath": "C:\\Users\\Mikel\\Documents\\IPEZEKA\\pewa1",
+  "fileCount": 92,
+  "totalSize": 5142073,
+  "ignoredCount": 20,
+  "ignored": [
+    ".env.local",
+    ".gitignore",
+    ".vercel",
+    "android\\app-release.apk",
+    "assets\\.aistudio\\.gitignore",
+    "dist\\.well-known",
+    "dist\\assets",
+    "dist\\demo.png",
+    "dist\\favicon.ICO",
+    "dist\\favicon.png",
+    "dist\\icon-192x192.png",
+    "dist\\icon-512x512.png",
+    "dist\\icon.png",
+    "dist\\icons",
+    "dist\\index.html",
+    "dist\\logo.png",
+    "dist\\playstore.png",
+    "dist\\server.cjs",
+    "dist\\server.cjs.map",
+    "node_modules"
+  ],
+  "directories": [
+    {
+      "path": "public",
+      "fileCount": 16,
+      "size": 3031661
+    },
+    {
+      "path": "src",
+      "fileCount": 48,
+      "size": 1087954
+    },
+    {
+      "path": "playstore-1.png",
+      "fileCount": 1,
+      "size": 369560
+    },
+    {
+      "path": "package-lock.json",
+      "fileCount": 1,
+      "size": 251365
+    },
+    {
+      "path": "Instagram.webp",
+      "fileCount": 1,
+      "size": 209730
+    },
+    {
+      "path": "bun.lock",
+      "fileCount": 1,
+      "size": 123650
+    },
+    {
+      "path": "Threads_(app).png",
+      "fileCount": 1,
+      "size": 18490
+    },
+    {
+      "path": "whatsapp.png",
+      "fileCount": 1,
+      "size": 12771
+    },
+    {
+      "path": "messenger.jpg",
+      "fileCount": 1,
+      "size": 12567
+    },
+    {
+      "path": "facebook.png",
+      "fileCount": 1,
+      "size": 6722
+    },
+    {
+      "path": "server.ts",
+      "fileCount": 1,
+      "size": 3082
+    },
+    {
+      "path": "index.html",
+      "fileCount": 1,
+      "size": 2626
+    },
+    {
+      "path": "database.rules.json",
+      "fileCount": 1,
+      "size": 2445
+    },
+    {
+      "path": "firestore.rules",
+      "fileCount": 1,
+      "size": 1872
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "fileCount": 1,
+      "size": 1779
+    },
+    {
+      "path": "package.json",
+      "fileCount": 1,
+      "size": 1160
+    },
+    {
+      "path": ".env.example",
+      "fileCount": 1,
+      "size": 952
+    },
+    {
+      "path": "firebase-blueprint.json",
+      "fileCount": 1,
+      "size": 760
+    },
+    {
+      "path": "vite.config.ts",
+      "fileCount": 1,
+      "size": 684
+    },
+    {
+      "path": "README.md",
+      "fileCount": 1,
+      "size": 542
+    },
+    {
+      "path": "tsconfig.json",
+      "fileCount": 1,
+      "size": 508
+    },
+    {
+      "path": "firebase-applet-config.json",
+      "fileCount": 1,
+      "size": 367
+    },
+    {
+      "path": "assetlinks.json",
+      "fileCount": 1,
+      "size": 337
+    },
+    {
+      "path": "metadata.json",
+      "fileCount": 1,
+      "size": 332
+    },
+    {
+      "path": ".gitattributes",
+      "fileCount": 1,
+      "size": 92
+    },
+    {
+      "path": ".vercelignore",
+      "fileCount": 1,
+      "size": 65
+    },
+    {
+      "path": "android",
+      "fileCount": 1,
+      "size": 0
+    },
+    {
+      "path": "assets",
+      "fileCount": 1,
+      "size": 0
+    },
+    {
+      "path": "dist",
+      "fileCount": 1,
+      "size": 0
+    },
+    {
+      "path": "vercel-dry.json",
+      "fileCount": 1,
+      "size": 0
+    }
+  ],
+  "largestFiles": [
+    {
+      "path": "public/demo.png",
+      "size": 1290986,
+      "mode": 33206,
+      "sha": "151d6f7bc9da95eb833ecc19847ed5a792df8c74"
+    },
+    {
+      "path": "public/icons/instagram.webp",
+      "size": 377209,
+      "mode": 33206,
+      "sha": "c49625871000376bc35a42bc8b6693006bcc690e"
+    },
+    {
+      "path": "playstore-1.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "public/icon.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "public/logo.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "public/playstore.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 251365,
+      "mode": 33206,
+      "sha": "d0f00d3a2d75bf47afa5c0972bc9a14bdf288f82"
+    },
+    {
+      "path": "Instagram.webp",
+      "size": 209730,
+      "mode": 33206,
+      "sha": "2917f681af2c42e3b2a18979d1d09d80bcbf0258"
+    },
+    {
+      "path": "src/components/settings/SettingsPage.tsx",
+      "size": 196284,
+      "mode": 33206,
+      "sha": "9ade91ae49f0eff4b7921504e64b2cbc5b0eb8bd"
+    },
+    {
+      "path": "src/services/db.ts",
+      "size": 166920,
+      "mode": 33206,
+      "sha": "8851e06ebaa95125c9e30af9a101fc5ddb8dc2ed"
+    }
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 952,
+      "mode": 33206,
+      "sha": "b50d2f9a310ce16e53ecd36eb0710e2bc0301da3"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 92,
+      "mode": 33206,
+      "sha": "b1e3a7f5d851e432357763828a641d2b325770d0"
+    },
+    {
+      "path": ".vercelignore",
+      "size": 65,
+      "mode": 33206,
+      "sha": "be391f32067bc3ee10df51521a8ddc6e2ae6e3c2"
+    },
+    {
+      "path": "android",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "assetlinks.json",
+      "size": 337,
+      "mode": 33206,
+      "sha": "ba05609efd6bb2bb3547f5656c1cabddf5279806"
+    },
+    {
+      "path": "assets/.aistudio",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "bun.lock",
+      "size": 123650,
+      "mode": 33206,
+      "sha": "1121c15b1771ad4aafcf5210f54f08b9f6f74b6b"
+    },
+    {
+      "path": "database.rules.json",
+      "size": 2445,
+      "mode": 33206,
+      "sha": "fbee0cdc821a9d3e419bbe5ca1d6f925bf22b665"
+    },
+    {
+      "path": "dist",
+      "size": 0,
+      "mode": 16822
+    },
+    {
+      "path": "facebook.png",
+      "size": 6722,
+      "mode": 33206,
+      "sha": "9f26e066e5d6721aefea21586f30cf5b0deff913"
+    },
+    {
+      "path": "firebase-applet-config.json",
+      "size": 367,
+      "mode": 33206,
+      "sha": "021e23acbf6cbab898b4ce2b8fb0d238ba706576"
+    },
+    {
+      "path": "firebase-blueprint.json",
+      "size": 760,
+      "mode": 33206,
+      "sha": "48308ec4c616bcc45ce9cb5caa2db58f446532dc"
+    },
+    {
+      "path": "firestore.rules",
+      "size": 1872,
+      "mode": 33206,
+      "sha": "1392ded3ded1fa7a8a4715b3b23f619ef9d874fa"
+    },
+    {
+      "path": "index.html",
+      "size": 2626,
+      "mode": 33206,
+      "sha": "6e691cf1e6f5e5face2bbf361629bd12561f60d9"
+    },
+    {
+      "path": "Instagram.webp",
+      "size": 209730,
+      "mode": 33206,
+      "sha": "2917f681af2c42e3b2a18979d1d09d80bcbf0258"
+    },
+    {
+      "path": "messenger.jpg",
+      "size": 12567,
+      "mode": 33206,
+      "sha": "4939936eaee1943fe843203c85e8705480a898a9"
+    },
+    {
+      "path": "metadata.json",
+      "size": 332,
+      "mode": 33206,
+      "sha": "ef98582a67401a491ff5972df6310b296377cc28"
+    },
+    {
+      "path": "package-lock.json",
+      "size": 251365,
+      "mode": 33206,
+      "sha": "d0f00d3a2d75bf47afa5c0972bc9a14bdf288f82"
+    },
+    {
+      "path": "package.json",
+      "size": 1160,
+      "mode": 33206,
+      "sha": "5c13e5ebc173baaf8e8ef7c7115b7b36e484941f"
+    },
+    {
+      "path": "playstore-1.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "public/.well-known/assetlinks.json",
+      "size": 338,
+      "mode": 33206,
+      "sha": "f5aaee68d741f235a7919ba57f67c1b8b1466460"
+    },
+    {
+      "path": "public/demo.png",
+      "size": 1290986,
+      "mode": 33206,
+      "sha": "151d6f7bc9da95eb833ecc19847ed5a792df8c74"
+    },
+    {
+      "path": "public/favicon.ICO",
+      "size": 8931,
+      "mode": 33206,
+      "sha": "ba381c3f1be39262b649ec09fa68919803ef23b0"
+    },
+    {
+      "path": "public/favicon.png",
+      "size": 10440,
+      "mode": 33206,
+      "sha": "b41de2f5b6fd87535275538c5e913cc02ba540a8"
+    },
+    {
+      "path": "public/icon-192x192.png",
+      "size": 16742,
+      "mode": 33206,
+      "sha": "ab26bdefb5c3697336e1fb2023d0b479d2aa7c0c"
+    },
+    {
+      "path": "public/icon-512x512.png",
+      "size": 55479,
+      "mode": 33206,
+      "sha": "8715353204ca31da05fc10b7ac8e2f6ebbb5e125"
+    },
+    {
+      "path": "public/icon.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "public/icons/facebook.png",
+      "size": 12654,
+      "mode": 33206,
+      "sha": "a00a92f74e140eb6d6047053074d3b034dc60ea0"
+    },
+    {
+      "path": "public/icons/icon-192x192.png",
+      "size": 16742,
+      "mode": 33206,
+      "sha": "ab26bdefb5c3697336e1fb2023d0b479d2aa7c0c"
+    },
+    {
+      "path": "public/icons/icon-512x512.png",
+      "size": 55479,
+      "mode": 33206,
+      "sha": "8715353204ca31da05fc10b7ac8e2f6ebbb5e125"
+    },
+    {
+      "path": "public/icons/instagram.webp",
+      "size": 377209,
+      "mode": 33206,
+      "sha": "c49625871000376bc35a42bc8b6693006bcc690e"
+    },
+    {
+      "path": "public/icons/messenger.jpg",
+      "size": 22121,
+      "mode": 33206,
+      "sha": "1381162a8ed73991d01794ffe1f83359b76935cc"
+    },
+    {
+      "path": "public/icons/threads.png",
+      "size": 33176,
+      "mode": 33206,
+      "sha": "f287d8ac6fe895dcdd02d3262fa38d960137073a"
+    },
+    {
+      "path": "public/icons/whatsapp.png",
+      "size": 22684,
+      "mode": 33206,
+      "sha": "8d8b95a7c7cb30adf3f766cede475b129b1c7e77"
+    },
+    {
+      "path": "public/logo.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "public/playstore.png",
+      "size": 369560,
+      "mode": 33206,
+      "sha": "8a3ec4f960af5e523dbdf5b57fa71748359aee4d"
+    },
+    {
+      "path": "README.md",
+      "size": 542,
+      "mode": 33206,
+      "sha": "9e78435e427994ca7ab18a4d85e25e41227c9273"
+    },
+    {
+      "path": "server.ts",
+      "size": 3082,
+      "mode": 33206,
+      "sha": "f86cda76a4fe2bd381908c76f97aa815f0c71350"
+    },
+    {
+      "path": "SETUP_GUIDE.md",
+      "size": 1779,
+      "mode": 33206,
+      "sha": "15c22ed05198ad267f059e22a9c6de927a8f91d4"
+    },
+    {
+      "path": "src/App.tsx",
+      "size": 9244,
+      "mode": 33206,
+      "sha": "967c6b4c170ca1093724beb9da97a5d07afd4272"
+    },
+    {
+      "path": "src/components/admin/AdminDashboard.tsx",
+      "size": 111258,
+      "mode": 33206,
+      "sha": "a603bef7da3e9fab333d0787617a367e67a5af72"
+    },
+    {
+      "path": "src/components/admin/ImageCropModal.tsx",
+      "size": 7989,
+      "mode": 33206,
+      "sha": "e45547d8fb35a441c82de8056f184e0b44b4d966"
+    },
+    {
+      "path": "src/components/auth/AuthModal.tsx",
+      "size": 24109,
+      "mode": 33206,
+      "sha": "f7b6db7d21f252fadd8b9bc5850f667a29f6b6a7"
+    },
+    {
+      "path": "src/components/auth/SignupWizard.tsx",
+      "size": 41559,
+      "mode": 33206,
+      "sha": "ac892ebafe1b9ef1432bcd0c07f67a8e050f6712"
+    },
+    {
+      "path": "src/components/chat/ChatRoom.tsx",
+      "size": 48461,
+      "mode": 33206,
+      "sha": "4de40fda2bcb0817473994131def1dc4accd7fbf"
+    },
+    {
+      "path": "src/components/chat/VoiceRecorderModal.tsx",
+      "size": 29083,
+      "mode": 33206,
+      "sha": "4afe71994d24ba8e5d19cf00b3f07d42dc76c1c0"
+    },
+    {
+      "path": "src/components/common/AndroidAppPromotionBanner.tsx",
+      "size": 4600,
+      "mode": 33206,
+      "sha": "4566798339459ee4a4915ad6aa1ba5c5de1243c3"
+    },
+    {
+      "path": "src/components/common/BalloonIcon.tsx",
+      "size": 2422,
+      "mode": 33206,
+      "sha": "b027f2e801e9463078d46703ea8638c357dd64ef"
+    },
+    {
+      "path": "src/components/common/BottomNav.tsx",
+      "size": 5084,
+      "mode": 33206,
+      "sha": "4e2fd7cc3808a7ad4c2fd405048d91c6e8f2d25e"
+    },
+    {
+      "path": "src/components/common/ErrorBoundary.tsx",
+      "size": 2147,
+      "mode": 33206,
+      "sha": "bb343c865b50e5473902ead2eb7a90b45e8a6af4"
+    },
+    {
+      "path": "src/components/common/Header.tsx",
+      "size": 2273,
+      "mode": 33206,
+      "sha": "a93078ba99b5b0ac48f513fed8f59bf6fe45c548"
+    },
+    {
+      "path": "src/components/common/MetaShareModal.tsx",
+      "size": 13457,
+      "mode": 33206,
+      "sha": "af7cd72c359687509bc4f9331e2d0a006c843305"
+    },
+    {
+      "path": "src/components/common/UserProfileModal.tsx",
+      "size": 41990,
+      "mode": 33206,
+      "sha": "e8b2145bf96bc9360772cc679c9414de980ac8e3"
+    },
+    {
+      "path": "src/components/common/VerificationRequestModal.tsx",
+      "size": 6251,
+      "mode": 33206,
+      "sha": "47f762355b67cb7f5722c9b6f376aa0ab516ae61"
+    },
+    {
+      "path": "src/components/common/VerificationRequiredModal.tsx",
+      "size": 3246,
+      "mode": 33206,
+      "sha": "784c6b456322a9c95373bd16de0a83f889a8389c"
+    },
+    {
+      "path": "src/components/common/VoiceCallOverlay.tsx",
+      "size": 25274,
+      "mode": 33206,
+      "sha": "c99799536178a322f8e43ed545421038ff80fae3"
+    },
+    {
+      "path": "src/components/settings/SettingsPage.tsx",
+      "size": 196284,
+      "mode": 33206,
+      "sha": "9ade91ae49f0eff4b7921504e64b2cbc5b0eb8bd"
+    },
+    {
+      "path": "src/components/sugars/PewaSugarsSection.tsx",
+      "size": 16376,
+      "mode": 33206,
+      "sha": "a0f6b672fb96f4eafe8bf3f0a184c229b0660afb"
+    },
+    {
+      "path": "src/components/sugars/SugarApplicationForm.tsx",
+      "size": 51944,
+      "mode": 33206,
+      "sha": "b0214bde1c8f218df7562d340b4eaff15c824835"
+    },
+    {
+      "path": "src/components/sugars/SugarCard.tsx",
+      "size": 8905,
+      "mode": 33206,
+      "sha": "24a03a7656e6e4979a7fe6438a3d4f0c70406896"
+    },
+    {
+      "path": "src/components/sugars/SugarProfileDetailModal.tsx",
+      "size": 15971,
+      "mode": 33206,
+      "sha": "48720550ac405665644fb606df4ce2ac4e462f20"
+    },
+    {
+      "path": "src/components/sugars/SugarTermsModal.tsx",
+      "size": 9974,
+      "mode": 33206,
+      "sha": "9a293edb1a3fbd4d8c4edc41f857637041b33d55"
+    },
+    {
+      "path": "src/components/tabs/AccountTab.tsx",
+      "size": 13395,
+      "mode": 33206,
+      "sha": "9bef4b6bda6e8c0d6781e1bd600cce157441d7bd"
+    },
+    {
+      "path": "src/components/tabs/ChatsTab.tsx",
+      "size": 17638,
+      "mode": 33206,
+      "sha": "6869f58fe6e1ca2138a0b45a64a54a541817c245"
+    },
+    {
+      "path": "src/components/tabs/FindLoveTab.tsx",
+      "size": 26289,
+      "mode": 33206,
+      "sha": "43f9401062daed32bf770015a0862f2ebde4fd82"
+    },
+    {
+      "path": "src/components/tabs/NotificationsTab.tsx",
+      "size": 32089,
+      "mode": 33206,
+      "sha": "b1a65c9cefb4b4ddaf5d98208b78116baefef09f"
+    },
+    {
+      "path": "src/components/tabs/PostsTab.tsx",
+      "size": 26000,
+      "mode": 33206,
+      "sha": "50b5de701e82235c2a13a90a7d8617b0ceb0f134"
+    },
+    {
+      "path": "src/context/AuthContext.tsx",
+      "size": 37345,
+      "mode": 33206,
+      "sha": "ab9811860df7392af5839f823f3ed684a3ab6797"
+    },
+    {
+      "path": "src/data/countries.ts",
+      "size": 2440,
+      "mode": 33206,
+      "sha": "d840bf7285b3ff9bae97213e33dbbf00a5af5e79"
+    },
+    {
+      "path": "src/firebase.ts",
+      "size": 2130,
+      "mode": 33206,
+      "sha": "bf40cb8d93cfdaa5bb6da7cfba93ff757f96b3a8"
+    },
+    {
+      "path": "src/index.css",
+      "size": 1967,
+      "mode": 33206,
+      "sha": "a416a91159d4c703e4be753ca3a31e87b74954d1"
+    },
+    {
+      "path": "src/main.tsx",
+      "size": 284,
+      "mode": 33206,
+      "sha": "db17cb034285daefd7183beb5e91c3eae9e25485"
+    },
+    {
+      "path": "src/services/chatSettings.ts",
+      "size": 1525,
+      "mode": 33206,
+      "sha": "63b3f47acf2607df59c57b012603cf8a100e11ba"
+    },
+    {
+      "path": "src/services/cloudinary.ts",
+      "size": 7652,
+      "mode": 33206,
+      "sha": "50c6c842f2d25758cdacd6baac97b797f8ec2eca"
+    },
+    {
+      "path": "src/services/contactModeration.ts",
+      "size": 4052,
+      "mode": 33206,
+      "sha": "77e94d136a593a57bddf986191326ae34d18111b"
+    },
+    {
+      "path": "src/services/db.ts",
+      "size": 166920,
+      "mode": 33206,
+      "sha": "8851e06ebaa95125c9e30af9a101fc5ddb8dc2ed"
+    },
+    {
+      "path": "src/services/imageVerification.ts",
+      "size": 8712,
+      "mode": 33206,
+      "sha": "c32b66a09436ebed6a418dca7117de15b952312e"
+    },
+    {
+      "path": "src/services/notifications.ts",
+      "size": 1513,
+      "mode": 33206,
+      "sha": "a1e6260c741e1bb71e2ded6c3359176b518057f9"
+    },
+    {
+      "path": "src/services/onesignal.ts",
+      "size": 4467,
+      "mode": 33206,
+      "sha": "9a9761d432226c298d53c091ff984d3303fbbf74"
+    },
+    {
+      "path": "src/services/phone.ts",
+      "size": 3289,
+      "mode": 33206,
+      "sha": "3f5e8904e9663bbd9eb5af96b7e7818012c2e59c"
+    },
+    {
+      "path": "src/services/pinSecurity.ts",
+      "size": 8539,
+      "mode": 33206,
+      "sha": "a99bcbf5114cd8d0068d8477c8e9929a8c9ee137"
+    },
+    {
+      "path": "src/services/voiceCallService.ts",
+      "size": 18517,
+      "mode": 33206,
+      "sha": "1deb06c2da085fa00a394a6ea58d0b25afdf7743"
+    },
+    {
+      "path": "src/types/index.ts",
+      "size": 14341,
+      "mode": 33206,
+      "sha": "5ea7d6c61b540a912a7705c3b8cc7c8344a6c09c"
+    },
+    {
+      "path": "src/utils/audioProcessor.ts",
+      "size": 4846,
+      "mode": 33206,
+      "sha": "5da66abacf883940f865654ef9f7a0aa05cbd372"
+    },
+    {
+      "path": "src/utils/chatDiagnostic.ts",
+      "size": 5065,
+      "mode": 33206,
+      "sha": "de060dfd2de0f9f0eef0e6fa735ebefd0254eb65"
+    },
+    {
+      "path": "src/utils/timeout.ts",
+      "size": 428,
+      "mode": 33206,
+      "sha": "11857ed6e6a543e14c4ee691ea146bfb8c0bdd21"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "size": 610,
+      "mode": 33206,
+      "sha": "bec7938b1aa60d42d3b14e81522360e9ec6d24ad"
+    },
+    {
+      "path": "Threads_(app).png",
+      "size": 18490,
+      "mode": 33206,
+      "sha": "79df8efb74d201270e54597d566ead515c8a0ed3"
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 508,
+      "mode": 33206,
+      "sha": "85ed80e55c8e48675d3041982b7a512d81683eb2"
+    },
+    {
+      "path": "vercel-dry.json",
+      "size": 0,
+      "mode": 33206,
+      "sha": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    },
+    {
+      "path": "vite.config.ts",
+      "size": 684,
+      "mode": 33206,
+      "sha": "bbbd5e98ec35b3c91c92c6b8af11ecbb5204173a"
+    },
+    {
+      "path": "whatsapp.png",
+      "size": 12771,
+      "mode": 33206,
+      "sha": "4d2876be4316776ae91850822ba37df3db6447cd"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.peza-pezawanga",
+      "sha256_cert_fingerprints": [
+        "90:02:F8:14:2A:62:96:8D:EE:33:C6:0A:F2:C1:B1:E8:C0:D9:3F:A2:DA:E3:F2:F2:73:36:20:DE:D3:C3:60:A1"
+      ]
+    }
+  }
+]
