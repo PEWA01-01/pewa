@@ -1,0 +1,12 @@
+{
+  "name": "PEWA Social & Dating",
+  "description": "PEWA PWA social networking and dating platform with HD voice calls, sugar profiles, and verified match matching.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
